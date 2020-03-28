@@ -1,4 +1,4 @@
-#!/usr/bin/env python
+﻿#!/usr/bin/env python
 # coding: utf-8
 
 # Einkommentieren, falls nur CPU genutzt werden soll
@@ -135,7 +135,7 @@ if __name__ == '__main__':
     client_s3 = boto3.client("s3" )
 
     response = client_s3.put_object(
-        Bucket="sdd-s3-basebucket",
+        Bucket="sdd-s3-bucket",
         Body=json.dumps(webcams),
         Key=f"webcamdaten/{datetime.now().strftime('%Y/%m/%d/%H')}webcamdaten.json"
       )
