@@ -91,7 +91,7 @@ class PeopleCounter:
 if __name__ == '__main__':
     model_path = './faster_rcnn_inception_v2_coco_2018_01_28/frozen_inference_graph.pb'
     webcams = [{'ID':1,'URL':'http://217.24.53.18/record/current.jpg', 'Lat':'50.258318',"Lon":'10.964798','Name':'Coburg Marktplatz', 'Personenzahl':None, 'Stand':None },
-               {'ID':2,'URL':'http://www2.annaberg-buchholz.de/webcam/markt.jpg', 'Lat':'50.580062',"Lon":'13.002370','Name':'Annaberg-Buchholz Markt', 'Personenzahl':None, 'Stand':None },
+               {'ID':2,'URL':'https://www2.annaberg-buchholz.de/webcam/markt.jpg', 'Lat':'50.580062',"Lon":'13.002370','Name':'Annaberg-Buchholz Markt', 'Personenzahl':None, 'Stand':None },
                {'ID':3,'URL':'https://www.konzil-konstanz.de/webcam/hafen.jpg', 'Lat':'47.660951',"Lon":'9.178256','Name':'Hafen Konstanz', 'Personenzahl':None, 'Stand':None },
                {'ID':4,'URL':'https://www.erfurt.de/webcam/fischmarkt.jpg', 'Lat':'50.978031',"Lon":'11.028691','Name':'Erfurt Fischmarkt', 'Personenzahl':None, 'Stand':None },
                {'ID':5,'URL':'https://www.juwelier-roller.de/media/webcam/chemnitz_markt.jpg', 'Lat':'50.832587',"Lon":'12.919738','Name':'Chemnitz Markt', 'Personenzahl':None, 'Stand':None },
