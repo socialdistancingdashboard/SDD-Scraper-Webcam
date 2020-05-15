@@ -173,7 +173,7 @@ if __name__ == '__main__':
             print(cam["Name"]+" :"+str(cam["Personenzahl"]))
         #except:
             #pass
-        except HTTPError as e:
+        except urllib2.HTTPError as e:
             print('The server couldn\'t fulfill the request.')
             print('Error code: ', e.code)
         except urllib2.URLError as e:
