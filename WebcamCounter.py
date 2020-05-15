@@ -168,8 +168,14 @@ if __name__ == '__main__':
             cam['Personenzahl'] = pc.count_people(verbose=False)
             cam['Stand'] = datetime.now().strftime("%Y-%m-%d %H:%M")
             print(cam["Name"]+" :"+str(cam["Personenzahl"]))
-        except:
-            pass
+        #except:
+            #pass
+        except HTTPError as e:
+            print('The server couldn\'t fulfill the request.')
+            print('Error code: ', e.code)
+        except URLError as e:
+            print('We failed to reach a server.')
+            print('Reason: ', e.reason)
 
     client_s3 = boto3.client("s3" )
 
