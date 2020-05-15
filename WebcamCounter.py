@@ -176,7 +176,7 @@ if __name__ == '__main__':
         except HTTPError as e:
             print('The server couldn\'t fulfill the request.')
             print('Error code: ', e.code)
-        except URLError as e:
+        except urllib2.URLError as e:
             print('We failed to reach a server.')
             print('Reason: ', e.reason)
 
