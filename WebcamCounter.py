@@ -13,6 +13,9 @@ import urllib
 from datetime import datetime
 import boto3
 import json
+import ssl
+
+ssl._create_default_https_context = ssl._create_unverified_context
 
 # Geklaut von https://gist.github.com/madhawav/1546a4b99c8313f06c0b2d7d7b4a09e2
 class DetectorAPI:
