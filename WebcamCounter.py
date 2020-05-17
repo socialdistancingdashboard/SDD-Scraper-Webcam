@@ -173,10 +173,10 @@ if __name__ == '__main__':
             cam['Stand'] = datetime.now().strftime("%Y-%m-%d %H:%M")
             print(cam["Name"]+" :"+str(cam["Personenzahl"]))        
         except urllib.error.HTTPError as e:
-            print('The server couldn\'t fulfill the request.')
+            print(cam["Name"]+" :"+'The server couldn\'t fulfill the request.')
             print('Error code: ', e.code)
         except urllib.error.URLError as e:
-            print('We failed to reach a server.')
+            print(cam["Name"]+" :"+'We failed to reach a server.')
             print('Reason: ', e.reason)
         except:
             pass
