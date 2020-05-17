@@ -74,8 +74,8 @@ class PeopleCounter:
     def get_image(self, url):
         resp = urllib.request.urlopen(url)
         self.image = np.asarray(bytearray(resp.read()), dtype="uint8")
-        if self.img is not None:
-            self.image = cv2.imdecode(self.image, -1)
+        #if self.img is not None:
+        self.image = cv2.imdecode(self.image, -1)
 
     def count_people(self, verbose=False):
         peoplecount = 0
@@ -171,17 +171,15 @@ if __name__ == '__main__':
             pc.get_image(cam['URL'])
             cam['Personenzahl'] = pc.count_people(verbose=False)
             cam['Stand'] = datetime.now().strftime("%Y-%m-%d %H:%M")
-            print(cam["Name"]+" :"+str(cam["Personenzahl"]))
-        #except:
-            #pass
+            print(cam["Name"]+" :"+str(cam["Personenzahl"]))        
         except urllib.error.HTTPError as e:
             print('The server couldn\'t fulfill the request.')
             print('Error code: ', e.code)
         except urllib.error.URLError as e:
             print('We failed to reach a server.')
             print('Reason: ', e.reason)
-        except AttributeError as e:
-            print('No image')
+        except:
+            pass
 
     client_s3 = boto3.client("s3" )
 
