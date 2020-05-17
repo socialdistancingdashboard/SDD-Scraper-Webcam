@@ -135,7 +135,7 @@ if __name__ == '__main__':
                {'ID':39,'URL':'http://wovi95.ddns-instar.com:81/snapshot.jpg?user=gast&pwd=gast&Fri%20Mar%2027%202020%2010%3A15%3A01%20GMT+0100%20%28Mitteleurop%E4ische%20Normalzeit%29', 'Lat':'50.4474983',"Lon":'11.6380773','Name':'Bad Lobenstein Markt', 'Personenzahl':None, 'Stand':None }, 
                {'ID':40,'URL':'https://www.erfurt.de/webcam/domplatz.jpg', 'Lat':'50.9772478',"Lon":'11.0218204','Name':'Erfurt Domplatz', 'Personenzahl':None, 'Stand':None },  
                {'ID':41,'URL':'http://www.thueringer-webcams.de/kunden/mdr/weimar/livebild-pal.jpg', 'Lat':'50.9798182',"Lon":'11.3233716','Name':'Weimar Theaterplatz', 'Personenzahl':None, 'Stand':None },
-               {'ID':42,'URL':'http://www.aschersleben.de/webcams/Rathaus.jpeg', 'Lat':'48.6939552',"Lon":'9.1178365','Name':'Aschersleben Markt', 'Personenzahl':None, 'Stand':None },
+               #{'ID':42,'URL':'http://www.aschersleben.de/webcams/Rathaus.jpeg', 'Lat':'48.6939552',"Lon":'9.1178365','Name':'Aschersleben Markt', 'Personenzahl':None, 'Stand':None },
                {'ID':43,'URL':'https://www.gardelegen.de/webcam/webcam.jpg', 'Lat':'52.446933',"Lon":'11.4835116','Name':'Gardelegen Markt', 'Personenzahl':None, 'Stand':None },
                {'ID':44,'URL':'http://swhcam2.evh.de/vhughsize.jpg', 'Lat':'51.4868011',"Lon":'11.9384423','Name':'Halle (Saale) Markt', 'Personenzahl':None, 'Stand':None },                
                {'ID':45,'URL':'https://webcam.lutherstadt-eisleben.de/markt.jpg', 'Lat':'51.5282306',"Lon":'11.5452827','Name':'Lutherstadt Eisleben Markt', 'Personenzahl':None, 'Stand':None }, 
