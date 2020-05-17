@@ -141,7 +141,7 @@ if __name__ == '__main__':
                {'ID':45,'URL':'https://webcam.lutherstadt-eisleben.de/markt.jpg', 'Lat':'51.5282306',"Lon":'11.5452827','Name':'Lutherstadt Eisleben Markt', 'Personenzahl':None, 'Stand':None }, 
                {'ID':46,'URL':'http://webcam.naumburg.de/camimage.jpg', 'Lat':'51.152475',"Lon":'11.8073854','Name':'Naumburg (Saale) Markt', 'Personenzahl':None, 'Stand':None },
                {'ID':47,'URL':'https://www.hotelzumbaer.de/cam/image.jpg', 'Lat':'51.789',"Lon":'11.1392834','Name':'Quedlingburg Markt', 'Personenzahl':None, 'Stand':None },  
-               {'ID':48,'URL':'https://www.exempel.de/images/webcam/snapshot_current.jpg?', 'Lat':'52.5403281',"Lon":'11.9694902','Name':'Tangermünde Markt', 'Personenzahl':None, 'Stand':None }, 
+               {'ID':48,'URL':'https://www.exempel.de/images/webcam/snapshot_current.jpg', 'Lat':'52.5403281',"Lon":'11.9694902','Name':'Tangermünde Markt', 'Personenzahl':None, 'Stand':None }, 
                {'ID':49,'URL':'https://www.ostseebad-ahrenshoop.de/webcam/ahrenshoop-strand.jpg', 'Lat':'54.3785813',"Lon":'12.4102697','Name':'Ahrenshoop Strand', 'Personenzahl':None, 'Stand':None }, 
                {'ID':50,'URL':'http://www.nwm-net.de/markt/aktuellesbild.jpg', 'Lat':'53.8646453',"Lon":'11.1818843','Name':'Grevesmühlen Markt', 'Personenzahl':None, 'Stand':None },   
                {'ID':51,'URL':'https://media.webdatendienst.de/webcam1_a.jpg', 'Lat':'53.9570837',"Lon":'14.1651142','Name':'Heringsdorf', 'Personenzahl':None, 'Stand':None },
