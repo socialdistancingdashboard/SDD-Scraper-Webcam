@@ -179,6 +179,9 @@ if __name__ == '__main__':
         except urllib.error.URLError as e:
             print('We failed to reach a server.')
             print('Reason: ', e.reason)
+        except AssertionError as e:
+            ('Assertion error.')
+            print('Error code: ', e)
 
     client_s3 = boto3.client("s3" )
 
