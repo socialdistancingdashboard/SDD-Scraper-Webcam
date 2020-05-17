@@ -182,7 +182,6 @@ if __name__ == '__main__':
             print('Reason: ', e.reason)
         except AttributeError as e:
             print('No image')
-            print('Reason: ', e.reason)
 
     client_s3 = boto3.client("s3" )
 
