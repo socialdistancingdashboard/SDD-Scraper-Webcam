@@ -180,6 +180,9 @@ if __name__ == '__main__':
         except urllib.error.URLError as e:
             print('We failed to reach a server.')
             print('Reason: ', e.reason)
+        except AttributeError as e:
+            print('No image')
+            print('Reason: ', e.reason)
 
     client_s3 = boto3.client("s3" )
 
