@@ -169,7 +169,8 @@ if __name__ == '__main__':
                {'ID':72,'URL':'https://kamera.stausee-rabenstein.de/cam/image.jpg', 'Lat':'50.8390949',"Lon":'12.8112592','Name':'Stausee Rabenstein', 'Personenzahl':None, 'Stand':None },
                {'ID':73,'URL':'https://style-dach.de/webcam_projekte/Webcam_Doebeln_Obermarkt/webcamobermarkt.jpg', 'Lat':'51.1219072',"Lon":'13.1202998','Name':'Döbeln Markt', 'Personenzahl':None, 'Stand':None },
                {'ID':74,'URL':'https://www.goerlitz.de/webcamsab/altstadtbruecke.jpg', 'Lat':'51.1576599',"Lon":'14.9919863','Name':'Görlitz Altstadtbrücke', 'Personenzahl':None, 'Stand':None },
-               {'ID':75,'URL':'https://www.hainichen.de/webcam/webcam-rh.jpg', 'Lat':'50.9727078',"Lon":'13.120607','Name':'Hainichen Markt', 'Personenzahl':None, 'Stand':None }]
+               {'ID':75,'URL':'https://www.hainichen.de/webcam/webcam-rh.jpg', 'Lat':'50.9727078',"Lon":'13.120607','Name':'Hainichen Markt', 'Personenzahl':None, 'Stand':None },
+               {'ID':76,'URL':'https://www.plauen.de/cambilder/img03.jpg', 'Lat':'50.4943576',"Lon":'12.1335227','Name':'Plauen Altes Rathaus', 'Personenzahl':None, 'Stand':None }]
 
     pc = PeopleCounter(model_path)
 
