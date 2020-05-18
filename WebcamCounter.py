@@ -163,7 +163,8 @@ if __name__ == '__main__':
                {'ID':66,'URL':'https://www.vvo-online.de/img/webcamimages/bergstrasse-149.jpg', 'Lat':'51.0302823',"Lon":'13.7284321','Name':'Dresden Bergstraße', 'Personenzahl':None, 'Stand':None }, 
                {'ID':67,'URL':'http://allthos.de/lions/dresden.jpg', 'Lat':'51.0564335',"Lon":'13.736906','Name':'Dresden Neustädter Elbufer', 'Personenzahl':None, 'Stand':None },
                {'ID':68,'URL':'https://www.oederan.de/webcam2017/video.jpg', 'Lat':'50.8617937',"Lon":'13.1645769','Name':'Oederan Markt', 'Personenzahl':None, 'Stand':None },  
-               {'ID':69,'URL':'http://webcam.wilhelma.de/webcam02/webcam02.jpg', 'Lat':'48.8041551',"Lon":'9.2058097','Name':'Stuttgart Wilhelma', 'Personenzahl':None, 'Stand':None }]
+               {'ID':69,'URL':'http://webcam.wilhelma.de/webcam02/webcam02.jpg', 'Lat':'48.8041551',"Lon":'9.2058097','Name':'Stuttgart Wilhelma', 'Personenzahl':None, 'Stand':None },
+               {'ID':70,'URL':'https://www.wobau-badmuskau.de/wobaucam1/cambilder/marktplatz_bad_muskau.jpg', 'Lat':'51.546968',"Lon":'14.7184007','Name':'Bad Muskau', 'Personenzahl':None, 'Stand':None }]
 
     pc = PeopleCounter(model_path)
 
