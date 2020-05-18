@@ -167,7 +167,8 @@ if __name__ == '__main__':
                {'ID':70,'URL':'https://www.wobau-badmuskau.de/wobaucam1/cambilder/marktplatz_bad_muskau.jpg', 'Lat':'51.546968',"Lon":'14.7184007','Name':'Bad Muskau', 'Personenzahl':None, 'Stand':None },
                {'ID':71,'URL':'http://www.bautzen-webcam.de/upload/MobAG5.jpg', 'Lat':'51.1798389',"Lon":'14.4233251','Name':'Bautzen Kornmarkt', 'Personenzahl':None, 'Stand':None },
                {'ID':72,'URL':'https://kamera.stausee-rabenstein.de/cam/image.jpg', 'Lat':'50.8390949',"Lon":'12.8112592','Name':'Stausee Rabenstein', 'Personenzahl':None, 'Stand':None },
-               {'ID':73,'URL':'https://style-dach.de/webcam_projekte/Webcam_Doebeln_Obermarkt/webcamobermarkt.jpg', 'Lat':'51.1219072',"Lon":'13.1202998','Name':'Döbeln Markt', 'Personenzahl':None, 'Stand':None }]
+               {'ID':73,'URL':'https://style-dach.de/webcam_projekte/Webcam_Doebeln_Obermarkt/webcamobermarkt.jpg', 'Lat':'51.1219072',"Lon":'13.1202998','Name':'Döbeln Markt', 'Personenzahl':None, 'Stand':None },
+               {'ID':74,'URL':'https://www.goerlitz.de/webcamsab/altstadtbruecke.jpg', 'Lat':'51.1576599',"Lon":'14.9919863','Name':'Görlitz Altstadtbrücke', 'Personenzahl':None, 'Stand':None }]
 
     pc = PeopleCounter(model_path)
 
