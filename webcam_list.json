@@ -691,5 +691,14 @@
         "Name": "Plauen Altes Rathaus",
         "Personenzahl": null,
         "Stand": null
+    },
+    {
+        "ID": 77,
+        "URL": "https://webcam-karlshagen.usedom-medien.de/webcam1.jpg",
+        "Lat": "54.120889",
+        "Lon": "13.8421253",
+        "Name": "Karlshagen Ostseebad",
+        "Personenzahl": null,
+        "Stand": null
     }
 ]
