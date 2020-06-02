@@ -727,5 +727,14 @@
         "Name": "Trassenheide Strand Richtung Zinnowitz",
         "Personenzahl": null,
         "Stand": null
+    }, 
+    {
+        "ID": 81,
+        "URL": "https://www.wetter-trassenheide.de/template/trassenheide/webcamstrand/webcamStrandvorplatz/trassenheide2.jpg",
+        "Lat": "54.0959851",
+        "Lon": "13.877473",
+        "Name": "Trassenheide Strandvorplatz",
+        "Personenzahl": null,
+        "Stand": null
     },    
 ]
