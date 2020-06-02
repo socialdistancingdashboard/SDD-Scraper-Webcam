@@ -701,7 +701,7 @@
         "Personenzahl": null,
         "Stand": null
     },
-      {
+    {
         "ID": 78,
         "URL": "https://webcam-karlshagen.usedom-medien.de/webcam2.jpg",
         "Lat": "54.1213979",
@@ -709,5 +709,23 @@
         "Name": "Karlshagen Strandvorplatz",
         "Personenzahl": null,
         "Stand": null
-    }
+    },
+    {
+        "ID": 79,
+        "URL": "https://www.wetter-trassenheide.de/template/trassenheide/webcamstrand/webcam_strand/trassenheide_karlshagen.jpg",
+        "Lat": "54.0954499",
+        "Lon": "13.8809276",
+        "Name": "Trassenheide Strand Richtung Karlshagen",
+        "Personenzahl": null,
+        "Stand": null
+    },
+    {
+        "ID": 80,
+        "URL": "https://www.wetter-trassenheide.de/template/trassenheide/webcamstrand/webcam_strand/trassenheide_zinnowitz.jpg",
+        "Lat": "54.0954499",
+        "Lon": "13.8809276",
+        "Name": "Trassenheide Strand Richtung Zinnowitz",
+        "Personenzahl": null,
+        "Stand": null
+    },    
 ]
