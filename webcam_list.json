@@ -700,5 +700,14 @@
         "Name": "Karlshagen Ostseebad",
         "Personenzahl": null,
         "Stand": null
+    },
+      {
+        "ID": 78,
+        "URL": "https://webcam-karlshagen.usedom-medien.de/webcam2.jpg",
+        "Lat": "54.1213979",
+        "Lon": "13.8388612",
+        "Name": "Karlshagen Strandvorplatz",
+        "Personenzahl": null,
+        "Stand": null
     }
 ]
