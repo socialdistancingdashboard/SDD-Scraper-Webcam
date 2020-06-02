@@ -709,8 +709,7 @@
         "Name": "Karlshagen Strandvorplatz",
         "Personenzahl": null,
         "Stand": null
-    },
-    {
+    },    {
         "ID": 79,
         "URL": "https://www.wetter-trassenheide.de/template/trassenheide/webcamstrand/webcam_strand/trassenheide_karlshagen.jpg",
         "Lat": "54.0954499",
@@ -736,5 +735,14 @@
         "Name": "Trassenheide Strandvorplatz",
         "Personenzahl": null,
         "Stand": null
-    },    
+    },
+    {
+        "ID": 82,
+        "URL": "https://www.wetter-trassenheide.de/template/trassenheide/webcamstrand/webcam_promenade/trassenheide_strandpromenade.jpg",
+        "Lat": "54.0972688",
+        "Lon": "13.8754649",
+        "Name": "Trassenheide Abenteuerspielplatz",
+        "Personenzahl": null,
+        "Stand": null
+    }      
 ]
