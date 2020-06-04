@@ -698,8 +698,7 @@
         "Lat": "54.120889",
         "Lon": "13.8421253",
         "Name": "Karlshagen Ostseebad",
-        "Personenzahl": null,
-        "Stand": null
+        "Personenzahl":        "Stand": null
     },
     {
         "ID": 78,
@@ -722,7 +721,7 @@
         "ID": 80,
         "URL": "https://www.wetter-trassenheide.de/template/trassenheide/webcamstrand/webcam_strand/trassenheide_zinnowitz.jpg",
         "Lat": "54.0954499",
-        "Lon": "13.8809276",
+        "Lon": "13.",
         "Name": "Trassenheide Strand Richtung Zinnowitz",
         "Personenzahl": null,
         "Stand": null
@@ -744,5 +743,14 @@
         "Name": "Trassenheide Abenteuerspielplatz",
         "Personenzahl": null,
         "Stand": null
-    }      
+    },
+        {
+        "ID": 83,
+        "URL": "https://strandhotel-seerose.de/webcam/webcam/m1.jpg",
+        "Lat": "54.0415337",
+        "Lon": "14.0276174",
+        "Name": "Kölpinsee Strandhotel Seerose",
+        "Personenzahl": null,
+        "Stand": null
+    }
 ]
