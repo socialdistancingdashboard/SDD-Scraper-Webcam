@@ -781,5 +781,14 @@
         "Name": "Heringsdorf Strand",
         "Personenzahl": null,
         "Stand": null
+    },
+    {
+        "ID": 87,
+        "URL": "https://www.binz-kabel.de/camserv/images/schmachter.jpeg",
+        "Lat": "54.3990262",
+        "Lon": "13.6058455",
+        "Name": "Binz Schmachter See",
+        "Personenzahl": null,
+        "Stand": null
     }
 ]
