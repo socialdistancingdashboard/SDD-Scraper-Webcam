@@ -790,5 +790,14 @@
         "Name": "Binz Schmachter See",
         "Personenzahl": null,
         "Stand": null
+    },
+    {
+        "ID": 88,
+        "URL": "https://www.binz-kabel.de/camserv/images/baltik.jpeg",
+        "Lat": "54.39988",
+        "Lon": "13.6155413",
+        "Name": "Binz Strandzugang",
+        "Personenzahl": null,
+        "Stand": null
     }
 ]
