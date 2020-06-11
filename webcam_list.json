@@ -844,5 +844,14 @@
         "Name": "Wieck Hafen",
         "Personenzahl": null,
         "Stand": null
+    },
+    {
+        "ID": 94,
+        "URL": "https://www.graal-mueritz.de/images/livebild-xl.jpg",
+        "Lat": "54.259389",
+        "Lon": "12.2394213",
+        "Name": "Graal-Müritz Seebrücke",
+        "Personenzahl": null,
+        "Stand": null
     }
 ]
