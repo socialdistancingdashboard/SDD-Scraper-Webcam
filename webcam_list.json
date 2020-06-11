@@ -889,4 +889,13 @@
         "Personenzahl": null,
         "Stand": null
     }
+    {
+        "ID": 98,
+        "URL": "http://www.kitti-lubmin.de/Lubminsee/snapshot_20190416_135110.jpg",
+        "Lat": "54.137407",
+        "Lon": "13.6106003",
+        "Name": "Seebrücke Lubmin",
+        "Personenzahl": null,
+        "Stand": null
+    }
 ]
