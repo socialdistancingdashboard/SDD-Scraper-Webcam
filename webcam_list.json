@@ -826,5 +826,14 @@
         "Name": "Lietzow Strand",
         "Personenzahl": null,
         "Stand": null
+    },
+    {
+        "ID": 92,
+        "URL": "http://webcams.stoneds.de/born/cam/hafen-born.jpg",
+        "Lat": "54.382278",
+        "Lon": "12.5282923",
+        "Name": "Born Hafen",
+        "Personenzahl": null,
+        "Stand": null
     }
 ]
