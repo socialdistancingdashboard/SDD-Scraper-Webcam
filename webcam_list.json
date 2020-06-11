@@ -870,5 +870,14 @@
         "Name": "Greifswald Hafenstraße",
         "Personenzahl": null,
         "Stand": null
+    },
+    {
+        "ID": 96,
+        "URL": "https://www.travelcharme.com/fileadmin/contents/02_ohk/ostseehotel-webcam2.jpg",
+        "Lat": "54.154108",
+        "Lon": "11.7593123",
+        "Name": "Seebrücke Kühlungsborn",
+        "Personenzahl": null,
+        "Stand": null
     }
 ]
