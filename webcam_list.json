@@ -810,6 +810,14 @@
         "Stand": null
     },
     {
+        "ID": 94,
+        "URL": "https://www.graal-mueritz.de/images/livebild-xl.jpg",
+        "Lat": "54.259389",
+        "Lon": "12.2394213",
+        "Name": "Graal-Müritz Seebrücke",
+        "Personenzahl": null,
+        "Stand": null
+    }    {
         "ID": 90,
         "URL": "http://www.glowe.de/webcam/webcamhd.jpg",
         "Lat": "54.5728915",
@@ -851,6 +859,15 @@
         "Lat": "54.259389",
         "Lon": "12.2394213",
         "Name": "Graal-Müritz Seebrücke",
+        "Personenzahl": null,
+        "Stand": null
+    },
+    {
+        "ID": 95,
+        "URL": "https://www.ndr.de/public/webcams/wetter/greifswald.jpg",
+        "Lat": "54.098952",
+        "Lon": "13.3803343",
+        "Name": "Greifswald Hafenstraße",
         "Personenzahl": null,
         "Stand": null
     }
