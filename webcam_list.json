@@ -799,5 +799,14 @@
         "Name": "Binz Strandzugang",
         "Personenzahl": null,
         "Stand": null
+    },
+    {
+        "ID": 89,
+        "URL": "http://webcam.aquamaris.de/strand.jpg",
+        "Lat": "54.6182222",
+        "Lon": "13.3649393",
+        "Name": "Juliusruh Hotel Aquamaris,
+        "Personenzahl": null,
+        "Stand": null
     }
 ]
