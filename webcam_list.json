@@ -763,5 +763,14 @@
         "Name": "Heringsdorf Rosengarten",
         "Personenzahl": null,
         "Stand": null
+    },
+    {
+        "ID": 85,
+        "URL": "www.usedom-downloads.de/public/aktuell/strandhotel-ostseeblick.jpg",
+        "Lat": "53.9579537",
+        "Lon": "14.1634293",
+        "Name": "Heringsdorf Strandhotel",
+        "Personenzahl": null,
+        "Stand": null
     }
 ]
