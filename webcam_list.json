@@ -766,10 +766,19 @@
     },
     {
         "ID": 85,
-        "URL": "www.usedom-downloads.de/public/aktuell/strandhotel-ostseeblick.jpg",
+        "URL": "http://www.usedom-downloads.de/public/aktuell/strandhotel-ostseeblick.jpg",
         "Lat": "53.9579537",
         "Lon": "14.1634293",
         "Name": "Heringsdorf Strandhotel",
+        "Personenzahl": null,
+        "Stand": null
+    },
+    {
+        "ID": 86,
+        "URL": "https://www.pension-erdmann.de/ftp/MOBOTIX/test.jpg",
+        "Lat": "53.9563353",
+        "Lon": "14.1682633",
+        "Name": "Heringsdorf Strand",
         "Personenzahl": null,
         "Stand": null
     }
