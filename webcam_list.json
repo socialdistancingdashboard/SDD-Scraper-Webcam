@@ -754,5 +754,14 @@
         "Name": "Kölpinsee Strandhotel Seerose",
         "Personenzahl": null,
         "Stand": null
+    },
+    {
+        "ID": 84,
+        "URL": "https://media.webdatendienst.de/webcam1_a.jpg",
+        "Lat": "53.9580873",
+        "Lon": "14.1651233",
+        "Name": "Heringsdorf Rosengarten",
+        "Personenzahl": null,
+        "Stand": null
     }
 ]
