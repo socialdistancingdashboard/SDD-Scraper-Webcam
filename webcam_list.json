@@ -879,5 +879,14 @@
         "Name": "Seebrücke Kühlungsborn",
         "Personenzahl": null,
         "Stand": null
+    },
+    {
+        "ID": 97,
+        "URL": "https://www.travelcharme.com/fileadmin/contents/02_ohk/ostseehotel-webcam.jpg",
+        "Lat": "54.154391",
+        "Lon": "11.7576813",
+        "Name": "Strand Kühlungsborn",
+        "Personenzahl": null,
+        "Stand": null
     }
 ]
