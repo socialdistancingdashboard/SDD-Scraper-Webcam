@@ -835,5 +835,14 @@
         "Name": "Born Hafen",
         "Personenzahl": null,
         "Stand": null
+    },
+    {
+        "ID": 93,
+        "URL": "http://webcams.stoneds.de/wieck/cam/arche-wieck.jpg",
+        "Lat": "54.4084895",
+        "Lon": "12.5924506",
+        "Name": "Wieck Hafen",
+        "Personenzahl": null,
+        "Stand": null
     }
 ]
