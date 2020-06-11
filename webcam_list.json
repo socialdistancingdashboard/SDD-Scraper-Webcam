@@ -808,5 +808,14 @@
         "Name": "Juliusruh Hotel Aquamaris,
         "Personenzahl": null,
         "Stand": null
+    },
+    {
+        "ID": 90,
+        "URL": "http://www.glowe.de/webcam/webcamhd.jpg",
+        "Lat": "54.5728915",
+        "Lon": "13.4662861",
+        "Name": "Glowe Strandpromenade",
+        "Personenzahl": null,
+        "Stand": null
     }
 ]
