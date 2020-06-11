@@ -817,5 +817,14 @@
         "Name": "Glowe Strandpromenade",
         "Personenzahl": null,
         "Stand": null
+    },
+    {
+        "ID": 91,
+        "URL": "https://ferienwohnung-lietzow.de/webcam/image.jpg",
+        "Lat": "54.484937",
+        "Lon": "13.5039823",
+        "Name": "Lietzow Strand",
+        "Personenzahl": null,
+        "Stand": null
     }
 ]
