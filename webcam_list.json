@@ -907,5 +907,14 @@
         "Name": "Gütersloh Theater Vorplatz",
         "Personenzahl": null,
         "Stand": null
+    },
+    {
+        "ID": 100,
+        "URL": "https://www.warendorf.de/fileadmin/webcam.jpg",
+        "Lat": "51.9524591",
+        "Lon": "7.9884348",
+        "Name": "Warendorf Marktplatz",
+        "Personenzahl": null,
+        "Stand": null
     }    
 ]
