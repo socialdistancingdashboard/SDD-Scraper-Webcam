@@ -891,7 +891,7 @@
         "Stand": null
     },    
     {
-        "ID": 100,
+        "ID": 98,
         "URL": "https://www.warendorf.de/fileadmin/webcam.jpg",
         "Lat": "51.9524591",
         "Lon": "7.9884348",
@@ -900,7 +900,7 @@
         "Stand": null
     },
     {
-        "ID": 101,
+        "ID": 99,
         "URL": "https://www.ahlen.de/fileadmin/daten/content/webcam/markt/marktplatz.jpg",
         "Lat": "51.7627334",
         "Lon": "7.886659",
