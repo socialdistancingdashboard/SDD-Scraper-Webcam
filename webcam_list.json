@@ -899,5 +899,13 @@
         "Personenzahl": null,
         "Stand": null
     },
-    
+    {
+        "ID": 99,
+        "URL": "https://webcam.bitel.info/webcamgt02",
+        "Lat": "51.9062295",
+        "Lon": "8.3683308",
+        "Name": "Gütersloh Theater Vorplatz",
+        "Personenzahl": null,
+        "Stand": null
+    }    
 ]
