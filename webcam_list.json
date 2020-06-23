@@ -916,5 +916,14 @@
         "Name": "Warendorf Marktplatz",
         "Personenzahl": null,
         "Stand": null
+    },
+    {
+        "ID": 101,
+        "URL": "https://www.ahlen.de/fileadmin/daten/content/webcam/markt/marktplatz.jpg",
+        "Lat": "51.7627334",
+        "Lon": "7.886659",
+        "Name": "Ahlen Marktplatz",
+        "Personenzahl": null,
+        "Stand": null
     }    
 ]
