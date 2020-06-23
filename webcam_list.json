@@ -889,5 +889,15 @@
         "Name": "Strand Kühlungsborn",
         "Personenzahl": null,
         "Stand": null
-    }
+    },
+    {
+        "ID": 98,
+        "URL": "https://webcam.bitel.info/webcamgt01",
+        "Lat": "51.9064367",
+        "Lon": "8.3760758",
+        "Name": "Gütersloh Berliner Platz",
+        "Personenzahl": null,
+        "Stand": null
+    },
+    
 ]
