@@ -907,5 +907,14 @@
         "Name": "Ahlen Marktplatz",
         "Personenzahl": null,
         "Stand": null
+    },
+    {
+        "ID": 100,
+        "URL": "https://www.webcam.nethestadt.net/images2/webcam.jpg
+        "Lat": "51.716920",
+        "Lon": "9.184242",
+        "Name": "Brakel Marktplatz",
+        "Personenzahl": null,
+        "Stand": null
     }    
 ]
