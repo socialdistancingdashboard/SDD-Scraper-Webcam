@@ -910,7 +910,7 @@
     },
     {
         "ID": 100,
-        "URL": "https://www.webcam.nethestadt.net/images2/webcam.jpg
+        "URL": "https://www.webcam.nethestadt.net/images2/webcam.jpg",
         "Lat": "51.716920",
         "Lon": "9.184242",
         "Name": "Brakel Marktplatz",
@@ -919,10 +919,19 @@
     }, 
     {
         "ID": 101,
-        "URL": "https://www.bad-lippspringe.de/webcam/weblication/wThumbnails/bild2-4cd9aef56fda338g1d2a93272cf57e51@min400.jpg
+        "URL": "https://www.bad-lippspringe.de/webcam/weblication/wThumbnails/bild2-4cd9aef56fda338g1d2a93272cf57e51@min400.jpg",
         "Lat": "51.783902",
         "Lon": "8.816919",
         "Name": "Bad Lippspringe Rathausplatz",
+        "Personenzahl": null,
+        "Stand": null
+    }, 
+    {
+        "ID": 102,
+        "URL": "https://www.geseke.de/transfer/current.jpg",
+        "Lat": "51.6396427",
+        "Lon": "8.5096849",
+        "Name": "Geeske Stiftskirche",
         "Personenzahl": null,
         "Stand": null
     },    
