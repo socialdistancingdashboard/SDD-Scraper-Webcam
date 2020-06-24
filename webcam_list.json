@@ -934,5 +934,14 @@
         "Name": "Geeske Stiftskirche",
         "Personenzahl": null,
         "Stand": null
+    },
+    {
+        "ID": 103,
+        "URL": "https://www.markt-bueren.jpg,
+        "Lat": "51.552504",
+        "Lon": "8.559583",
+        "Name": "Markt Büren",
+        "Personenzahl": null,
+        "Stand": null
     },    
 ]
