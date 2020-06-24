@@ -916,5 +916,14 @@
         "Name": "Brakel Marktplatz",
         "Personenzahl": null,
         "Stand": null
-    }    
+    }, 
+    {
+        "ID": 101,
+        "URL": "https://www.bad-lippspringe.de/webcam/weblication/wThumbnails/bild2-4cd9aef56fda338g1d2a93272cf57e51@min400.jpg
+        "Lat": "51.783902",
+        "Lon": "8.816919",
+        "Name": "Bad Lippspringe Rathausplatz",
+        "Personenzahl": null,
+        "Stand": null
+    },    
 ]
