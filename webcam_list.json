@@ -937,7 +937,7 @@
     },
     {
         "ID": 103,
-        "URL": "https://www.markt-bueren.jpg",
+        "URL": "https://www.webcam-bueren.de/aktuell/markt-bueren.jpg",
         "Lat": "51.552504",
         "Lon": "8.559583",
         "Name": "Markt Büren",
@@ -950,6 +950,15 @@
         "Lat": "51.828444",
         "Lon": "9.446849",
         "Name": "Holzminden Markt",
+        "Personenzahl": null,
+        "Stand": null
+     },
+     {
+        "ID": 105,
+        "URL": "https://www.detmold.de/fileadmin/user_upload/startseite/Politik_und_Rathaus/Online-Dienste/Webcams/rathaus/marktplatz.jpg",
+        "Lat": "51.935092",
+        "Lon": "8.879452",
+        "Name": "Detmold Markt",
         "Personenzahl": null,
         "Stand": null
      },    
