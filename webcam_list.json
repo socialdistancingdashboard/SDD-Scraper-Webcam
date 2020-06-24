@@ -943,5 +943,14 @@
         "Name": "Markt Büren",
         "Personenzahl": null,
         "Stand": null
-    },    
+    },
+    {
+        "ID": 104,
+        "URL": "https://www.holzminden.de/fileadmin/cam/cam2.jpg",
+        "Lat": "51.828444",
+        "Lon": "9.446849",
+        "Name": "Holzminden Markt",
+        "Personenzahl": null,
+        "Stand": null
+     },    
 ]
