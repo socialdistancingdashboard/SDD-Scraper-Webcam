@@ -71,12 +71,12 @@ class PeopleCounter:
         self.odapi = DetectorAPI(path_to_ckpt=model_path)
         self.threshold = threshold
 
-    def get_image(self, url, id):
+    def get_image(self, url):
         resp = urllib.request.urlopen(url)
         self.image = np.asarray(bytearray(resp.read()), dtype="uint8")
-        #if self.img is not None:         
-        self.image = cv2.imdecode(self.image, -1)  
-         
+        #if self.img is not None:
+        self.image = cv2.imdecode(self.image, -1)
+
     def count_people(self, verbose=False):
         peoplecount = 0
         boxes, scores, classes, num = self.odapi.processFrame(self.image)
