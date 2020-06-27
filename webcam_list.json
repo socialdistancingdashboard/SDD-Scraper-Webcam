@@ -979,5 +979,14 @@
         "Name": "Dangast Rennweide Campingplatz",
         "Personenzahl": null,
         "Stand": null
+     },
+     {
+        "ID": 108,
+        "URL": "http://baltrumcam.md-systemhaus.de/webcam/markt.jpg",
+        "Lat": "53.7293913",
+        "Lon": "7.3699714",
+        "Name": "Baltrum Markt",
+        "Personenzahl": null,
+        "Stand": null
      }
 ]
