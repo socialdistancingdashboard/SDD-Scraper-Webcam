@@ -970,5 +970,14 @@
         "Name": "Jever Alter Markt",
         "Personenzahl": null,
         "Stand": null
+     },
+     {
+        "ID": 107,
+        "URL": "http://www.dangast-erleben.de/webcam/dangast.jpg",
+        "Lat": "53.4495097",
+        "Lon": "8.1142938",
+        "Name": "Dangast Rennweide Campingplatz",
+        "Personenzahl": null,
+        "Stand": null
      }
 ]
