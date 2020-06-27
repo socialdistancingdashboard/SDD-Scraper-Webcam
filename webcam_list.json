@@ -1051,5 +1051,14 @@
         "Name": "Geyer Markt",
         "Personenzahl": null,
         "Stand": null
+     },
+     {
+        "ID": 116,
+        "URL": "https://webcam.extra-radio.de/webcams/cam01/cam01.jpg",
+        "Lat": "50.3176608",
+        "Lon": "11.9132267",
+        "Name": "Hof Altstadt",
+        "Personenzahl": null,
+        "Stand": null
      }
 ]
