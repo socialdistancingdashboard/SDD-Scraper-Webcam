@@ -14,6 +14,7 @@ from datetime import datetime
 import boto3
 import json
 import ssl
+import os
 
 ssl._create_default_https_context = ssl._create_unverified_context
 
