@@ -997,5 +997,14 @@
         "Name": "Wittmund Markt",
         "Personenzahl": null,
         "Stand": null
+     },
+     {
+        "ID": 110,
+        "URL": "https://www.dzulko.de/files/images_webcam/webcam1/current.jpg",
+        "Lat": "53.9620094",
+        "Lon": "10.8785727",
+        "Name": "Travemünde Strand",
+        "Personenzahl": null,
+        "Stand": null
      }
 ]
