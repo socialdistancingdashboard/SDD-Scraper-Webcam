@@ -76,8 +76,8 @@ class PeopleCounter:
         self.image = np.asarray(bytearray(resp.read()), dtype="uint8")
         #if self.img is not None:
         self.image = cv2.imdecode(self.image, -1)
-        cv2.imwrite("/tmp/picture.jpg", self.image)
-        s3.put_object(Bucket="sdd-s3-bucket", Key=f"webcampicture/{datetime.now().strftime('%Y/%m/%d/%H')}"+ str(id) + ".jpg", Body=open("/tmp/picture.jpg", "rb").read())
+        status = cv2.imwrite("/tmp/"+ str(id) + ".jpg", self.image)
+        print("Image written to file-system : ",status) 
 
     def count_people(self, verbose=False):
         peoplecount = 0
