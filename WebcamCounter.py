@@ -109,7 +109,7 @@ if __name__ == '__main__':
     for cam in webcams:
         try:
             pc.get_image(cam['URL'])
-            pc.save_image(cam['URL'],cam['ID'])
+            #pc.save_image(cam['URL'],cam['ID'])
             cam['Personenzahl'] = pc.count_people(verbose=False)
             cam['Stand'] = datetime.now().strftime("%Y-%m-%d %H:%M")
             print(cam["Name"]+" :"+str(cam["Personenzahl"]))        
