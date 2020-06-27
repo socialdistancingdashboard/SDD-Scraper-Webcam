@@ -129,7 +129,7 @@ if __name__ == '__main__':
         if filename.endswith(".jpg"):
             print(os.path.join(directory, filename))
             s3 = boto3.resource('s3')
-            s3.Bucket('sdd-s3-bucket').upload_file(os.path.join(directory, filename), f"webcampictures/{datetime.now().strftime('%Y/%m/%d/%H')}" + filename)  
+            s3.Bucket('sdd-s3-bucket').upload_file(os.path.join(directory, filename), f"webcampictures/{datetime.now().strftime('%Y/%m/%d/%H')}" + "/" + filename)  
         else:
             continue
     
