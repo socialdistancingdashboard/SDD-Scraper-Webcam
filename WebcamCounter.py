@@ -77,10 +77,7 @@ class PeopleCounter:
         #if self.img is not None:
         self.image = cv2.imdecode(self.image, -1)
         status = cv2.imwrite("/tmp/"+ str(id) + ".jpg", self.image)
-        print("Image written to file-system : ",status)
-        client_s3 = boto3.client("s3" )
-        response = s3.put_object(Bucket="sdd-s3-bucket", Key=f"webcampictures/{datetime.now().strftime('%Y/%m/%d/%H')}webcam.jpg", Body=open("/tmp/"+ str(id) + ".jpg", "rb").read())
-        print(response)
+        print("Image written to file-system : ",status)       
 
     def count_people(self, verbose=False):
         peoplecount = 0
@@ -125,3 +122,10 @@ if __name__ == '__main__':
         Body=json.dumps(webcams),
         Key=f"webcamdaten/{datetime.now().strftime('%Y/%m/%d/%H')}webcamdaten.json"
       )
+    
+    directory = r'/tmp'
+    for filename in os.listdir(directory):
+    if filename.endswith(".jpg") or filename.endswith(".png"):
+        print(os.path.join(directory, filename))
+    else:
+        continue
