@@ -75,7 +75,15 @@ class PeopleCounter:
         resp = urllib.request.urlopen(url)
         self.image = np.asarray(bytearray(resp.read()), dtype="uint8")
         #if self.img is not None:         
-        self.image = cv2.imdecode(self.image, -1)    
+        self.image = cv2.imdecode(self.image, -1)
+        
+    def save_image(self, url, id):
+        resp = urllib.request.urlopen(url)
+        self.image = np.asarray(bytearray(resp.read()), dtype="uint8")
+        #if self.img is not None:         
+        self.image = cv2.imdecode(self.image, -1)
+        my_client_s3 = boto3.client("s3_client")
+        s3_client.put_object(Bucket="sdd-s3-bucket", Key = id, Body = self.image, ContentType= 'image/png')
      
     def count_people(self, verbose=False):
         peoplecount = 0
@@ -100,7 +108,8 @@ if __name__ == '__main__':
 
     for cam in webcams:
         try:
-            pc.get_image(cam['URL'],cam['ID'])
+            pc.get_image(cam['URL'])
+            pc.save_image(cam['URL'],cam['ID'])
             cam['Personenzahl'] = pc.count_people(verbose=False)
             cam['Stand'] = datetime.now().strftime("%Y-%m-%d %H:%M")
             print(cam["Name"]+" :"+str(cam["Personenzahl"]))        
