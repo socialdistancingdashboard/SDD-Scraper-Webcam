@@ -1006,5 +1006,14 @@
         "Name": "Travemünde Strand",
         "Personenzahl": null,
         "Stand": null
+     },
+     {
+        "ID": 111,
+        "URL": "https://www.strandidyll.de/bilder/webcams/mast.jpg",
+        "Lat": "54.1395166",
+        "Lon": "10.9483135",
+        "Name": "Grömitz Strandidyll",
+        "Personenzahl": null,
+        "Stand": null
      }
 ]
