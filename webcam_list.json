@@ -970,5 +970,14 @@
         "Name": "Jever Alter Markt",
         "Personenzahl": null,
         "Stand": null
+     },
+     {
+        "ID": 107,
+        "URL": "http://www.borkumitte.de/webcambf.jpg",
+        "Lat": "53.5874148",
+        "Lon": "6.6595972",
+        "Name": "Borkum Bahnhof",
+        "Personenzahl": null,
+        "Stand": null
      }
 ]
