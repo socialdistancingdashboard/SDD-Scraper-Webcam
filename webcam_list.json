@@ -1024,5 +1024,23 @@
         "Name": "Grömitz Promenade",
         "Personenzahl": null,
         "Stand": null
+     },
+     {
+        "ID": 113,
+        "URL": "https://olbernhau.de/input/webcams/001/MOBOTIX_Stadtkirche/MOBOTIX_Stadtkirche.jpg",
+        "Lat": "50.6612729",
+        "Lon": "13.3330732",
+        "Name": "Olbernhau Markt",
+        "Personenzahl": null,
+        "Stand": null
+     },
+     {
+        "ID": 114,
+        "URL": "https://olbernhau.de/input/webcams/002/MOBOTIX_Saigerhuette/MOBOTIX_Saigerhuette.jpg",
+        "Lat": "50.64922",
+        "Lon": "13.3664812",
+        "Name": "Olbernhau Saigerhütte",
+        "Personenzahl": null,
+        "Stand": null
      }
 ]
