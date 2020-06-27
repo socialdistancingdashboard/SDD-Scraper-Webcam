@@ -988,5 +988,14 @@
         "Name": "Baltrum Markt",
         "Personenzahl": null,
         "Stand": null
+     },
+     {
+        "ID": 109,
+        "URL": "https://webcam.harlinger.de/webcamwtm.jpg",
+        "Lat": "53.5737386",
+        "Lon": "7.7803149",
+        "Name": "Wittmund Markt",
+        "Personenzahl": null,
+        "Stand": null
      }
 ]
