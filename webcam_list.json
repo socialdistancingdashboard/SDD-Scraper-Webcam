@@ -961,5 +961,14 @@
         "Name": "Detmold Markt",
         "Personenzahl": null,
         "Stand": null
-     }    
+     },
+     {
+        "ID": 106,
+        "URL": "https://www.jever-aktiv.de/files/images/webcam/snapshot.jpg",
+        "Lat": "53.5737392",
+        "Lon": "7.9025184",
+        "Name": "Jever Alter Markt",
+        "Personenzahl": null,
+        "Stand": null
+     }
 ]
