@@ -1015,5 +1015,14 @@
         "Name": "Grömitz Strandidyll",
         "Personenzahl": null,
         "Stand": null
+     },
+     {
+        "ID": 112,
+        "URL": "https://www.groemitz.de/webcam/pics/aktuell_webcam.jpg",
+        "Lat": "54.1441848",
+        "Lon": "10.9584506",
+        "Name": "Grömitz Promenade",
+        "Personenzahl": null,
+        "Stand": null
      }
 ]
