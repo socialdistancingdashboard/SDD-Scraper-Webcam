@@ -1042,5 +1042,14 @@
         "Name": "Olbernhau Saigerhütte",
         "Personenzahl": null,
         "Stand": null
+     },
+     {
+        "ID": 115,
+        "URL": "http://webcam.stadt-geyer.de/wachtturm/wachtturm620.jpg",
+        "Lat": "50.624299",
+        "Lon": "12.921386",
+        "Name": "Geyer Markt",
+        "Personenzahl": null,
+        "Stand": null
      }
 ]
