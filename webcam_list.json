@@ -1060,5 +1060,41 @@
         "Name": "Hof Altstadt",
         "Personenzahl": null,
         "Stand": null
-     }
+     },
+     {
+        "ID": 117,
+        "URL": "https://www.selb.de/html/webcam2/live.jpg",
+        "Lat": "50.1696708",
+        "Lon": "12.1289059",
+        "Name": "Selb Markt",
+        "Personenzahl": null,
+        "Stand": null
+     },
+     {
+        "ID": 118,
+        "URL": "http://stadt-weissenstadt.ftp.procomp.de/project/weissenstadt/camobo.jpg",
+        "Lat": "50.1012387",
+        "Lon": "11.8828722",
+        "Name": "Weissenstadt Marktplatz",
+        "Personenzahl": null,
+        "Stand": null
+     },
+     {
+        "ID": 119,
+        "URL": "https://ftp.marktredwitz.de/ftpwebcam/Camobo.jpg",
+        "Lat": "50.0009721",
+        "Lon": "12.0846975",
+        "Name": "Markredwitz Fußgängerzone",
+        "Personenzahl": null,
+        "Stand": null
+     },
+     {
+        "ID": 120,
+        "URL": "http://bwjgbg.de/Webcam/marktplatzcam.jpg",
+        "Lat": "50.05265",
+        "Lon": "11.7955988",
+        "Name": "Bischofsgrün Marktplatz",
+        "Personenzahl": null,
+        "Stand": null
+     }  
 ]
