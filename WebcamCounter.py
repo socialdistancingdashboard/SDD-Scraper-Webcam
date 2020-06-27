@@ -71,12 +71,13 @@ class PeopleCounter:
         self.odapi = DetectorAPI(path_to_ckpt=model_path)
         self.threshold = threshold
 
-    def get_image(self, url):
+    def get_image(self, url, id):
         resp = urllib.request.urlopen(url)
         self.image = np.asarray(bytearray(resp.read()), dtype="uint8")
         #if self.img is not None:
         self.image = cv2.imdecode(self.image, -1)
         cv2.imwrite("/tmp/picture.jpg", self.image)
+        s3.put_object(Bucket="sdd-s3-bucket", Key=f"webcampicture/{datetime.now().strftime('%Y/%m/%d/%H')}"+ str(id) + ".jpg", Body=open("/tmp/picture.jpg", "rb").read())
 
     def count_people(self, verbose=False):
         peoplecount = 0
@@ -101,7 +102,7 @@ if __name__ == '__main__':
 
     for cam in webcams:
         try:
-            pc.get_image(cam['URL'])
+            pc.get_image(cam['URL'], cam['ID'])
             cam['Personenzahl'] = pc.count_people(verbose=False)
             cam['Stand'] = datetime.now().strftime("%Y-%m-%d %H:%M")
             print(cam["Name"]+" :"+str(cam["Personenzahl"]))        
