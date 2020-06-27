@@ -77,7 +77,10 @@ class PeopleCounter:
         #if self.img is not None:
         self.image = cv2.imdecode(self.image, -1)
         status = cv2.imwrite("/tmp/"+ str(id) + ".jpg", self.image)
-        print("Image written to file-system : ",status) 
+        print("Image written to file-system : ",status)
+        client_s3 = boto3.client("s3" )
+        response = s3.put_object(Bucket="sdd-s3-bucket", Key=f"webcampictures/{datetime.now().strftime('%Y/%m/%d/%H')}webcam.jpg", Body=open("/tmp/"+ str(id) + ".jpg", "rb").read())
+        print(response)
 
     def count_people(self, verbose=False):
         peoplecount = 0
