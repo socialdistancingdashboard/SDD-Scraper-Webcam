@@ -126,7 +126,11 @@ if __name__ == '__main__':
     
     directory = r'/tmp'
     for filename in os.listdir(directory):
-        if filename.endswith(".jpg") or filename.endswith(".png"):
+        if filename.endswith(".jpg"):
             print(os.path.join(directory, filename))
+            s3 = boto3.resource('s3')
+            s3.Bucket('sdd-s3-bucket').upload_file(os.path.join(directory, filename), 'webcampictures/{datetime.now().strftime('%Y/%m/%d/%H')}' + filename)  
+        )
         else:
             continue
+    
