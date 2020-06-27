@@ -75,7 +75,9 @@ class PeopleCounter:
         resp = urllib.request.urlopen(url)
         self.image = np.asarray(bytearray(resp.read()), dtype="uint8")
         #if self.img is not None:
+        client_s3 = boto3.client("s3" )
         response = client_s3.put_object(Bucket="sdd-s3-bucket", Body=self.image, Key=f"webcamdaten/{datetime.now().strftime('%Y/%m/%d/%H')}webcam.jpg")
+        print(response)
         self.image = cv2.imdecode(self.image, -1)    
      
     def count_people(self, verbose=False):
