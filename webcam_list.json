@@ -1096,5 +1096,14 @@
         "Name": "Bischofsgrün Marktplatz",
         "Personenzahl": null,
         "Stand": null
-     }  
+     },
+     {
+        "ID": 121,
+        "URL": "http://www.bruchsal.de/bruchsal/webcam/stadtnetz-cam.jpg",
+        "Lat": "49.124",
+        "Lon": " 8.596",
+        "Name": "Bruchsal Marktplatz",
+        "Personenzahl": null,
+        "Stand": null
+     }
 ]
