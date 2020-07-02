@@ -2,6 +2,7 @@ import streamlit as st
 import requests
 import json
 import pandas as pd
+from os import path
 
 import requests
 
@@ -43,9 +44,9 @@ url = webcam["image"]["daylight"]["preview"]
 st.write(webcam["title"])
 st.image(url)
 JSONFILE = "output.json"
-try:
+if path.exists(JSONFILE):
     df = pd.read_json(JSONFILE).drop_duplicates(subset="windy_id",keep="last")
-except:
+else:
     df = pd.DataFrame()
 my_table = st.table(df)
 
