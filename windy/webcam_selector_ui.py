@@ -63,7 +63,7 @@ if ADD:
         "windy_preview_url":webcam["image"]["current"]["preview"],
         "windy_url":webcam["url"]["current"]["desktop"],
         "windy_id":webcam["id"],
-        "selector_idx":idx
+        "selector_counter":COUNTER
     }
     df_add = pd.DataFrame(data=data,index=[0])
     df = df.append(df_add)
