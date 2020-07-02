@@ -28,7 +28,7 @@ def get_cams(offset=0):
 
     returned = len(r.json()["result"]["webcams"])
     total = r.json()["result"]["total"]
-    print(f"Webcams: {returned}/{total}")
+    #print(f"Webcams: {returned}/{total}")
 
     webcams = r.json()["result"]["webcams"]
     return webcams,total
@@ -45,12 +45,17 @@ st.write(webcam["title"])
 st.image(url)
 JSONFILE = "output.json"
 if path.exists(JSONFILE):
-    df = pd.read_json(JSONFILE).drop_duplicates(subset="windy_id",keep="last")
+    df = pd.read_json(JSONFILE)
+    df = df.drop_duplicates(subset="windy_id",keep="last")
 else:
+    # create empty file with utf-8 encoding
+    with open(JSONFILE,"w+",encoding="utf-8") as f:
+        f.write("[]")
     df = pd.DataFrame()
 my_table = st.table(df)
 
 if ADD:
+    print(f"Add id={idx}: {webcam['title']}")
     data = {
         "name":webcam["title"],
         "lat":webcam["location"]["latitude"],
@@ -64,12 +69,17 @@ if ADD:
     df = df.append(df_add)
     df["windy_id"]=df["windy_id"].astype(int)
     df = df.drop_duplicates(subset="windy_id",keep="last").reset_index(drop=True)
-    df.to_json(JSONFILE,orient="records",indent=2,force_ascii=False)
+    
+    json_str=df.to_json(orient="records",indent=2,force_ascii=False)
+    json_str=json_str.replace("\/","/") # un-escpae slashes
+    with open(JSONFILE,"w",encoding="utf-8") as f:
+        f.write(json_str)
+        # for some reason, pd.to_json(JSONFILE) creates issues with utf8 files
+    
     st.write("Source added!")
     my_table.table(df)
     
 
-        
 st.markdown("""
 <style type='text/css'>
     .stButton>button {
