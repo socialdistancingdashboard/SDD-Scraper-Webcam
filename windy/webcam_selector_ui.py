@@ -6,7 +6,7 @@ import pandas as pd
 import requests
 
 @st.cache()
-def get_key()
+def get_key():
     with open("token.txt","r") as f:
         key = f.readline().strip()
     return key
