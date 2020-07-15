@@ -77,8 +77,8 @@ class PeopleCounter:
         self.image = np.asarray(bytearray(resp.read()), dtype="uint8")
         #if self.img is not None:
         self.image = cv2.imdecode(self.image, -1)
-        status = cv2.imwrite("/tmp/"+ str(id) + ".jpg", self.image)
-        print("Image written to file-system : ",status)       
+        #status = cv2.imwrite("/tmp/"+ str(id) + ".jpg", self.image)
+        #print("Image written to file-system : ",status)       
 
     def count_people(self, verbose=False):
         peoplecount = 0
@@ -124,12 +124,12 @@ if __name__ == '__main__':
         Key=f"webcamdaten/{datetime.now().strftime('%Y/%m/%d/%H')}webcamdaten.json"
       )
     
-    directory = r'/tmp'
-    for filename in os.listdir(directory):
-        if filename.endswith(".jpg"):
-            print(os.path.join(directory, filename))
-            s3 = boto3.resource('s3')
-            s3.Bucket('sdd-s3-bucket').upload_file(os.path.join(directory, filename), f"webcampictures/{datetime.now().strftime('%Y/%m/%d/%H')}" + "/" + filename)  
-        else:
-            continue
+    #directory = r'/tmp'
+    #for filename in os.listdir(directory):
+    #    if filename.endswith(".jpg"):
+    #        print(os.path.join(directory, filename))
+    #        s3 = boto3.resource('s3')
+    #        s3.Bucket('sdd-s3-bucket').upload_file(os.path.join(directory, filename), f"webcampictures/{datetime.now().strftime('%Y/%m/%d/%H')}" + "/" + filename)  
+    #    else:
+    #        continue
     
