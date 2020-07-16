@@ -32,11 +32,8 @@ class DetectorAPI:
                 tf.import_graph_def(od_graph_def, name='')
 
         self.default_graph = self.detection_graph.as_default()
-        self.sess = tf.Session(graph=self.detection_graph)
+        self.sess = tf.Session(graph=self.detection_graph)     
         
-        graph = tf.compat.v1.get_default_graph()
-        for x in self.default_graph.get_operations():
-            x.name        
 
         # Definite input and output Tensors for detection_graph
         self.image_tensor = self.detection_graph.get_tensor_by_name('model_outputs:0')
