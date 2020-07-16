@@ -22,7 +22,7 @@ phases:
     commands:
       - echo BEGIN BUILD PHASE
       - python WebcamCounter.py
-      - 
+      - python WebcamCounter2.py
     finally:
       - echo END BUILD PHASE
 
