@@ -33,9 +33,12 @@ class DetectorAPI:
 
         self.default_graph = self.detection_graph.as_default()
         self.sess = tf.Session(graph=self.detection_graph)
+        
+        for x in self.default_graph.get_operations():
+            x.name        
 
         # Definite input and output Tensors for detection_graph
-        self.image_tensor = self.detection_graph.get_tensor_by_name('image_tensor:0')
+        self.image_tensor = self.detection_graph.get_tensor_by_name('model_outputs:0')
         # Each box represents a part of the image where a particular object was detected.
         self.detection_boxes = self.detection_graph.get_tensor_by_name('detection_boxes:0')
         # Each score represent how level of confidence for each of the objects.
