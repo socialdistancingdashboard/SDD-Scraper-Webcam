@@ -34,6 +34,7 @@ class DetectorAPI:
         self.default_graph = self.detection_graph.as_default()
         self.sess = tf.Session(graph=self.detection_graph)
         
+        graph = tf.compat.v1.get_default_graph()
         for x in self.default_graph.get_operations():
             x.name        
 
