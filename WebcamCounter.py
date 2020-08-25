@@ -15,9 +15,6 @@ import boto3
 import json
 import ssl
 import os
-import pytz
-
-tz = pytz.timezone('Europe/Berlin')
 
 ssl._create_default_https_context = ssl._create_unverified_context
 
@@ -108,7 +105,7 @@ if __name__ == '__main__':
         try:
             pc.get_image(cam['URL'], cam['ID'])
             cam['Personenzahl'] = pc.count_people(verbose=False)
-            cam['Stand'] = datetime.now(tz).strftime("%Y-%m-%d %H:%M")
+            cam['Stand'] = datetime.now().strftime("%Y-%m-%d %H:%M")
             print(cam["Name"]+" :"+str(cam["Personenzahl"]))        
         except urllib.error.HTTPError as e:
             print(cam["Name"]+" :"+'The server couldn\'t fulfill the request.')
@@ -124,5 +121,5 @@ if __name__ == '__main__':
     response = client_s3.put_object(
         Bucket="sdd-s3-bucket",
         Body=json.dumps(webcams),
-        Key=f"webcamdaten/{datetime.now(tz).strftime('%Y/%m/%d/%H')}webcamdaten.json"
+        Key=f"webcamdaten/{datetime.now().strftime('%Y/%m/%d/%H')}webcamdaten.json"
       )
