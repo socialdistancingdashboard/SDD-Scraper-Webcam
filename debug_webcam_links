@@ -120,7 +120,7 @@ if __name__ == '__main__':
         color = (255,0,0)
         thickness = 2
 
-    cv2.imwrite(f'C://rectangles_{id}.jpg', img_with_rec)
+    cv2.imwrite(f'C://tmp/rectangles_{id}.jpg', img_with_rec)
 
     cv2.imshow("img", img)
     cv2.imshow("img_with_rec", img_with_rec)
